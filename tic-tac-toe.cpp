@@ -137,5 +137,5 @@ bool win()
         
     }
     tie = true;
-    return false;
+    return true;
 }
