@@ -130,7 +130,7 @@ bool win()
     {
         for (int j = 0; j < 3; j++)
         {
-            if (board[i][j] != 'X' || board[i][j] == 'O') {
+            if (board[i][j] != 'X' && board[i][j] == 'O') {
                 return false;
             }
         }
